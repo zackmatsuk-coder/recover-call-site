@@ -8,6 +8,7 @@
       name="description"
       content="Book a free 15-minute call with RecoverCall and hear a live demo for your HVAC company."
     />
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -44,8 +45,11 @@
       <section class="section booking-layout">
         <div class="calendar-placeholder">
           <!-- REPLACE WITH CALENDLY EMBED CODE -->
-          <strong>Calendly Embed Placeholder</strong>
-          <p>Paste your Calendly embed code here when you are ready.</p>
+          <div
+            class="calendly-inline-widget"
+            data-url="https://calendly.com/zack-173/30min"
+            style="min-width: 320px; height: 700px;"
+          ></div>
         </div>
         <aside class="call-notes">
           <h2>What To Expect</h2>
@@ -70,6 +74,7 @@
         <a href="book-a-call.html">Book A Call</a>
       </nav>
     </footer>
+    <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
     <script src="script.js"></script>
   </body>
 </html>
