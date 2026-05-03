@@ -799,28 +799,17 @@ main {
 }
 
 .calendar-placeholder {
-  display: grid;
   min-height: 520px;
-  place-items: center;
-  padding: 28px;
-  border: 2px dashed #b9c0bb;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid var(--line);
   border-radius: 8px;
-  background:
-    linear-gradient(135deg, rgba(194, 90, 44, 0.07), transparent),
-    #fff;
-  text-align: center;
+  background: #fff;
   box-shadow: var(--hard-shadow);
 }
 
-.calendar-placeholder strong {
-  display: block;
-  color: var(--ink);
-  font-size: 1.5rem;
-}
-
-.calendar-placeholder p {
-  margin-top: 8px;
-  color: var(--muted);
+.calendly-inline-widget {
+  width: 100%;
 }
 
 .call-notes {
